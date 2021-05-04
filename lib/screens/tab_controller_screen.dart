@@ -20,6 +20,7 @@ class _TabScreenControllerState extends State<TabScreenController> {
           Container(
             color: Theme.of(context).backgroundColor,
             child: Scaffold(
+              resizeToAvoidBottomInset: false,
               floatingActionButton: FloatingActionButton(
                 onPressed: () {},
                 foregroundColor: Theme.of(context).primaryColor,
