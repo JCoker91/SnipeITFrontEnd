@@ -64,6 +64,7 @@ class HomeScreen extends StatelessWidget {
                           Container(
                             width: 250,
                             child: TextField(
+                              keyboardType: TextInputType.number,
                               decoration: InputDecoration(
                                 fillColor: Colors.white,
                                 filled: true,
